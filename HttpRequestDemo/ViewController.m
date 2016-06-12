@@ -26,15 +26,6 @@ static NSString *const uploadUrlStr = @"http://app.eyisheng.net.cn/eyisheng/thir
 
 }
 
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-}
-
-
 - (void)normalRequest{
 //    普通请求
         AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
