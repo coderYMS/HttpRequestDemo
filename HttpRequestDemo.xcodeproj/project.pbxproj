@@ -15,6 +15,10 @@
 		04F85BF61CE5A8F60043E9D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F85BF41CE5A8F60043E9D9 /* LaunchScreen.storyboard */; };
 		04F85C011CE5A8F60043E9D9 /* HttpRequestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F85C001CE5A8F60043E9D9 /* HttpRequestDemoTests.m */; };
 		04F85C0C1CE5A8F60043E9D9 /* HttpRequestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F85C0B1CE5A8F60043E9D9 /* HttpRequestDemoUITests.m */; };
+		04F85C1D1CED8FA60043E9D9 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F85C1C1CED8FA60043E9D9 /* Result.m */; };
+		04F85C201CED8FE30043E9D9 /* Hospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F85C1F1CED8FE30043E9D9 /* Hospital.m */; };
+		04F85C611CF555190043E9D9 /* onePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F85C601CF555190043E9D9 /* onePhoto.png */; };
+		2D05977AB518C958A6E5D8FC /* libPods-HttpRequestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB7D15E6C3EC80632349D55 /* libPods-HttpRequestDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		04F85C071CE5A8F60043E9D9 /* HttpRequestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpRequestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F85C0B1CE5A8F60043E9D9 /* HttpRequestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequestDemoUITests.m; sourceTree = "<group>"; };
 		04F85C0D1CE5A8F60043E9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F85C1B1CED8FA60043E9D9 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		04F85C1C1CED8FA60043E9D9 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		04F85C1E1CED8FE30043E9D9 /* Hospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hospital.h; sourceTree = "<group>"; };
+		04F85C1F1CED8FE30043E9D9 /* Hospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hospital.m; sourceTree = "<group>"; };
+		04F85C601CF555190043E9D9 /* onePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onePhoto.png; sourceTree = "<group>"; };
+		604A156B23AE368361866D21 /* Pods-HttpRequestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HttpRequestDemo/Pods-HttpRequestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		816092F81403ABD9E7D11496 /* Pods-HttpRequestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpRequestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HttpRequestDemo/Pods-HttpRequestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB7D15E6C3EC80632349D55 /* libPods-HttpRequestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HttpRequestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D05977AB518C958A6E5D8FC /* libPods-HttpRequestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,8 @@
 				04F85BFF1CE5A8F60043E9D9 /* HttpRequestDemoTests */,
 				04F85C0A1CE5A8F60043E9D9 /* HttpRequestDemoUITests */,
 				04F85BE41CE5A8F60043E9D9 /* Products */,
+				E39290C3C40910032E959916 /* Pods */,
+				71FCB9F7ED0EF3D54A2B38FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +120,10 @@
 				04F85BEA1CE5A8F60043E9D9 /* AppDelegate.m */,
 				04F85BEC1CE5A8F60043E9D9 /* ViewController.h */,
 				04F85BED1CE5A8F60043E9D9 /* ViewController.m */,
+				04F85C1B1CED8FA60043E9D9 /* Result.h */,
+				04F85C1C1CED8FA60043E9D9 /* Result.m */,
+				04F85C1E1CED8FE30043E9D9 /* Hospital.h */,
+				04F85C1F1CED8FE30043E9D9 /* Hospital.m */,
 				04F85BEF1CE5A8F60043E9D9 /* Main.storyboard */,
 				04F85BF21CE5A8F60043E9D9 /* Assets.xcassets */,
 				04F85BF41CE5A8F60043E9D9 /* LaunchScreen.storyboard */,
@@ -117,6 +136,7 @@
 		04F85BE61CE5A8F60043E9D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04F85C601CF555190043E9D9 /* onePhoto.png */,
 				04F85BE71CE5A8F60043E9D9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +160,23 @@
 			path = HttpRequestDemoUITests;
 			sourceTree = "<group>";
 		};
+		71FCB9F7ED0EF3D54A2B38FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB7D15E6C3EC80632349D55 /* libPods-HttpRequestDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E39290C3C40910032E959916 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				816092F81403ABD9E7D11496 /* Pods-HttpRequestDemo.debug.xcconfig */,
+				604A156B23AE368361866D21 /* Pods-HttpRequestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F85C101CE5A8F60043E9D9 /* Build configuration list for PBXNativeTarget "HttpRequestDemo" */;
 			buildPhases = (
+				C988EFACB932609423A49763 /* 📦 Check Pods Manifest.lock */,
 				04F85BDF1CE5A8F60043E9D9 /* Sources */,
 				04F85BE01CE5A8F60043E9D9 /* Frameworks */,
 				04F85BE11CE5A8F60043E9D9 /* Resources */,
+				1911D1C50CFA09006F38FBE6 /* 📦 Embed Pods Frameworks */,
+				E5589346AF5AF8203A3BB7A0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +285,7 @@
 			files = (
 				04F85BF61CE5A8F60043E9D9 /* LaunchScreen.storyboard in Resources */,
 				04F85BF31CE5A8F60043E9D9 /* Assets.xcassets in Resources */,
+				04F85C611CF555190043E9D9 /* onePhoto.png in Resources */,
 				04F85BF11CE5A8F60043E9D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,13 +306,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1911D1C50CFA09006F38FBE6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpRequestDemo/Pods-HttpRequestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C988EFACB932609423A49763 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5589346AF5AF8203A3BB7A0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpRequestDemo/Pods-HttpRequestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04F85BDF1CE5A8F60043E9D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04F85BEE1CE5A8F60043E9D9 /* ViewController.m in Sources */,
+				04F85C201CED8FE30043E9D9 /* Hospital.m in Sources */,
 				04F85BEB1CE5A8F60043E9D9 /* AppDelegate.m in Sources */,
+				04F85C1D1CED8FA60043E9D9 /* Result.m in Sources */,
 				04F85BE81CE5A8F60043E9D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,9 +500,11 @@
 		};
 		04F85C111CE5A8F60043E9D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816092F81403ABD9E7D11496 /* Pods-HttpRequestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HttpRequestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yumengshi.HttpRequestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +513,11 @@
 		};
 		04F85C121CE5A8F60043E9D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604A156B23AE368361866D21 /* Pods-HttpRequestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HttpRequestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yumengshi.HttpRequestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +591,7 @@
 				04F85C121CE5A8F60043E9D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F85C131CE5A8F60043E9D9 /* Build configuration list for PBXNativeTarget "HttpRequestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +600,7 @@
 				04F85C151CE5A8F60043E9D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F85C161CE5A8F60043E9D9 /* Build configuration list for PBXNativeTarget "HttpRequestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +609,7 @@
 				04F85C181CE5A8F60043E9D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

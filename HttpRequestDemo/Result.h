@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+//#import "Hospital.h"
+//#import <YYModel.h>
+
+@class Hospital;
 
 @interface Result : NSObject
+
+@property NSString *code;
+@property NSArray *hospitalList;
 
 @end

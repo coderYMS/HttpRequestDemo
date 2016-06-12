@@ -10,4 +10,16 @@
 
 @implementation Hospital
 
++ (NSDictionary *)modelCustomPropertyMapper{
+    return @{
+             @"id_hospital" : @"id"
+             };
+}
+
++ (NSDictionary *)modelContainerPropertyGenericClass{
+    return @{
+             @"floor_plan" : [NSString class]
+             };
+}
+
 @end
